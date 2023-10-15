@@ -77,14 +77,6 @@
 
 
 
-<script>
-    $(document).ready(function() {
-      $('#table').DataTable();
-  } );
-   </script>
-
-
-
 <script type="text/javascript">
 
     var branch_list =  $('#branch_table').DataTable({
@@ -100,6 +92,6 @@
 
     <style>
         .datatable-button{
-            background-color: red;
+            background-color: red
         }
     </style>

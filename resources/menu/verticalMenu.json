@@ -5,6 +5,23 @@
       "name": "Dashboard",
       "icon": "menu-icon tf-icons bx bx-home-circle",
       "slug": "dashboard"
+    },
+    {
+      "name": "Categories",
+      "icon": "menu-icon tf-icons bx bx-copy",
+      "slug": "categories",
+      "submenu": [
+        {
+          "url": "/categories",
+          "name": "List",
+          "slug": "list"
+        },
+        {
+          "url": "/categories/create",
+          "name": "create",
+          "slug": "create"
+        }
+      ]
     }
   ]
 }
