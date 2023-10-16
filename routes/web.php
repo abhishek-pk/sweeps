@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AgentController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
@@ -19,6 +20,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return redirect(route('login'));
     return view('welcome');
 });
 
@@ -49,6 +51,8 @@ Route::middleware('auth')->group(function () {
 
     // category 
     Route::resource('/categories', CategoryController::class);
+    // agent 
+    Route::resource('/agents', AgentController::class);
 
 });
 

@@ -22,6 +22,18 @@
           "slug": "create"
         }
       ]
+    },
+    {
+      "name": "Agents",
+      "icon": "menu-icon tf-icons bx bx-copy",
+      "slug": "agents",
+      "submenu": [
+        {
+          "url": "/agents",
+          "name": "List",
+          "slug": "list"
+        }
+      ]
     }
   ]
 }
